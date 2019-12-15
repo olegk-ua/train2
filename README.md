@@ -3,6 +3,8 @@
 ###
 ### This GIT repo is used for learning purposes only!
 
+### Brief explanation can be seen in the README.txt
+
 ### Here below is the original README ###
 ---
 
