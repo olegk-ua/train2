@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Stop') {
             steps {
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
+                input message: 'Verify the web site (http://<Your_IP>:5000) (Click "Proceed" to continue)'
                 sh './scripts/kill.sh'
             }
         }
